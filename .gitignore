@@ -1,0 +1,19 @@
+# Godot 4+ specific ignores
+.import/
+.export/
+.godot/
+.vscode/
+/android/
+*.translation
+
+*.tmp
+*.converted.res
+*.converted.scn
+
+# Blender backup files
+*.blend[0-9]*
+*.blend@
+*.blendthumb
+
+# Blender autosave files
+__autosave.blend
