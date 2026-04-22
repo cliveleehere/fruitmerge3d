@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://h7ltakywxorg"]
+
+[ext_resource type="Resource" uid="uid://dhw4nkee8h880" path="res://fruit/strawberry.tres" id="1_6jgd1"]
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_lj21s"]
+
+[resource]
+script = ExtResource("1_lj21s")
+fruit_name = "blueberry"
+color = Color(0, 0, 1, 1)
+next_fruit = ExtResource("1_6jgd1")
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"

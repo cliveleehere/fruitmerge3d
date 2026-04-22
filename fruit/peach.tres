@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://ccwkqoh6lgjcv"]
+
+[ext_resource type="Resource" uid="uid://bbgg7wufu42wf" path="res://fruit/apple.tres" id="1_8wkba"]
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_n7rwa"]
+
+[resource]
+script = ExtResource("1_n7rwa")
+fruit_name = "peach"
+color = Color(1, 0, 0.7294118, 1)
+size = 16.0
+next_fruit = ExtResource("1_8wkba")
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"

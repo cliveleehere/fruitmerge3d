@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://chxen25x12oss"]
+
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_jxjxr"]
+
+[resource]
+script = ExtResource("1_jxjxr")
+fruit_name = "watermelon"
+color = Color(0, 0.45882353, 0, 1)
+size = 1024.0
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"

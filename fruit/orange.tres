@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://bk0yxl8r8brh8"]
+
+[ext_resource type="Resource" uid="uid://bxe0dsh57epqs" path="res://fruit/lemon.tres" id="1_ujwvo"]
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_yujno"]
+
+[resource]
+script = ExtResource("1_yujno")
+fruit_name = "orange"
+color = Color(1, 0.43137255, 0, 1)
+size = 4.0
+next_fruit = ExtResource("1_ujwvo")
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"

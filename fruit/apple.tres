@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://bbgg7wufu42wf"]
+
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_k5sfg"]
+[ext_resource type="Resource" uid="uid://daaxa0qkisf3" path="res://fruit/coconut.tres" id="1_wetwo"]
+
+[resource]
+script = ExtResource("1_k5sfg")
+fruit_name = "apple"
+color = Color(0.9019608, 0, 0, 1)
+size = 32.0
+next_fruit = ExtResource("1_wetwo")
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"

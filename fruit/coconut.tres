@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://daaxa0qkisf3"]
+
+[ext_resource type="Resource" uid="uid://b48rh246jjebl" path="res://fruit/dragonfruit.tres" id="1_8tico"]
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_eewlj"]
+
+[resource]
+script = ExtResource("1_eewlj")
+fruit_name = "coconut"
+color = Color(0.7176471, 0.27058825, 0, 1)
+size = 64.0
+next_fruit = ExtResource("1_8tico")
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"

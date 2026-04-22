@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FruitData" format=3 uid="uid://b48rh246jjebl"]
+
+[ext_resource type="Script" uid="uid://bhhml2qmmhiyr" path="res://fruit/fruit_data.gd" id="1_fhorv"]
+[ext_resource type="Resource" uid="uid://oaqcqye28h0q" path="res://fruit/pineapple.tres" id="1_ywywx"]
+
+[resource]
+script = ExtResource("1_fhorv")
+fruit_name = "dragonfruit"
+color = Color(0.9647059, 0.40392157, 1, 1)
+size = 128.0
+next_fruit = ExtResource("1_ywywx")
+metadata/_custom_type_script = "uid://bhhml2qmmhiyr"
