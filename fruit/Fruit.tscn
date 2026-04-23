@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bf5fjcbr13eoq"]
+
+[ext_resource type="Script" uid="uid://duru76ghqopr3" path="res://fruit/fruit.gd" id="1_uleoo"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_uleoo"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_a7lcc"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_gn1o8"]
+
+[node name="Fruit" type="RigidBody3D" unique_id=1378029595]
+script = ExtResource("1_uleoo")
+metadata/_custom_type_script = "uid://duru76ghqopr3"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2012277861]
+mesh = SubResource("SphereMesh_uleoo")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2127807050]
+shape = SubResource("SphereShape3D_a7lcc")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1888902336]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=86435560]
+shape = SubResource("SphereShape3D_gn1o8")
