@@ -12,6 +12,9 @@ func _process(_delta):
 	if abs(ray_direction.y) > 0.001:
 		var distance := (plane_y - ray_origin.y) / ray_direction.y
 		var hit_point := ray_origin + ray_direction * distance
+		
+		hit_point.x = clampf(hit_point.x, -1, 1)
+		hit_point.z = clampf(hit_point.z, -1, 1)
 
 		global_position.x = hit_point.x
 		global_position.z = hit_point.z
