@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://clk52ugrnumw2"]
 
 [ext_resource type="PackedScene" uid="uid://nvvir7gici0m" path="res://level.tscn" id="1_80nbo"]
+[ext_resource type="PackedScene" uid="uid://cgsybu5k65260" path="res://cursor/cursor.tscn" id="2_e2o6t"]
 
 [node name="Game" type="Node3D" unique_id=600718130]
 
@@ -11,3 +12,5 @@ transform = Transform3D(0.74337834, -0.47296336, 0.47296336, 0, 0.7071068, 0.707
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1508149565]
 transform = Transform3D(0.6612656, -0.58628076, 0.4679772, 0.0062360205, 0.62811804, 0.7780931, -0.75012594, -0.51160794, 0.41900888, 2, 5.472282, 2)
+
+[node name="Cursor" parent="." unique_id=2018493337 instance=ExtResource("2_e2o6t")]

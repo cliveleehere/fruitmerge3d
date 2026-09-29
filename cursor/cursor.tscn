@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cgsybu5k65260"]
+
+[ext_resource type="Shader" uid="uid://t7d2w7fgq4ok" path="res://cursor/cursor.gdshader" id="1_isnha"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gyd2p"]
+render_priority = 0
+shader = ExtResource("1_isnha")
+shader_parameter/line_color = Color(0.2, 0.8, 1, 1)
+shader_parameter/dash_count = 10.0
+shader_parameter/dash_length = 0.5
+shader_parameter/speed = 1.0
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_q0vrm"]
+material = SubResource("ShaderMaterial_gyd2p")
+top_radius = 0.05
+bottom_radius = 0.05
+height = 4.0
+
+[node name="Cursor" type="Node3D" unique_id=2018493337]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1193733509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+mesh = SubResource("CylinderMesh_q0vrm")
