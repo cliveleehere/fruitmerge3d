@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cgsybu5k65260"]
 
+[ext_resource type="Script" uid="uid://cfcj32jngvm0b" path="res://cursor/cursor.gd" id="1_g0wji"]
 [ext_resource type="Shader" uid="uid://t7d2w7fgq4ok" path="res://cursor/cursor.gdshader" id="1_isnha"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_gyd2p"]
@@ -17,6 +18,7 @@ bottom_radius = 0.05
 height = 4.0
 
 [node name="Cursor" type="Node3D" unique_id=2018493337]
+script = ExtResource("1_g0wji")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1193733509]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
